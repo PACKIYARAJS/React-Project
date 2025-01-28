@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+}
+.Right{
+
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 55%;
+    border:solid 2px black;
+    width: 200px; 
+    height : 250px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Left{
+
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 35%;
+    border:solid 2px black;
+    width: 200px; 
+    height : 250px; 
+}
+
+button{
+    text-align: center;
+    width: 197px;
+    background-color: lightgray;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: lightgreen;
+    transform: scale(1.05);
+}
+
